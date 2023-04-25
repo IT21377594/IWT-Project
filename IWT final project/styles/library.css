@@ -1,0 +1,58 @@
+.bg{
+    background-image: url('../image/library.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 100px 200px 400px;
+}
+h1#header{
+	font-style: arial;
+	font-weight: bold;
+    color: rgb(3, 49, 49);
+    
+   
+}
+.lbry{
+    margin-left: 1000px;
+    margin-top: 10px;
+    
+}
+
+.bttn1{
+	margin: 10px 10px 50px 50px;
+    width: 15%;
+	height: 30px;
+	background-color: rgb(104, 103, 103);
+    border: rgb(104, 103, 103);
+	font-size: 14px;
+	font-weight: thick;
+    color: white;
+    float: left;
+}
+.book{
+	display: block;
+    margin: 1px 10px 10px 50px;
+    width: auto;
+    float: left;
+}
+
+.head{
+    
+    margin: 20px 200px 10px 50px;
+    float: left;
+    width: 700px;
+}
+.lbry{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: auto;
+}
+.gallery{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}

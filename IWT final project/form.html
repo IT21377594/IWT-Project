@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration page</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="JS/cours.js"></script>
+    
+    
+</head>
+
+<body> 
+    <div class="membership-form">
+        <h1>Membership form</h1>
+        <form action="insert.php" method="post">
+            <p>Full Name</p>
+            <input type="text" id="fullname" name="fullname" placeholder="Full Name" required> 
+
+            <p>Username</p>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+
+            <p>Email</p>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <p>Contact Number</p>
+            <input type="number" id="phone" name="phone" pattern="[0-9]{10}" placeholder="0112247159" required>
+
+            <p>Year</p>
+            <input type="text" id="year" name="year" placeholder="Enter your Year" required>
+
+            <p>Semester</p>
+            <input type="text" id="semester" name="semester" placeholder="Enter your Semester" required>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
